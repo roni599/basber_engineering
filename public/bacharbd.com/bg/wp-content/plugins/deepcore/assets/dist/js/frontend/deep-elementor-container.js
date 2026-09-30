@@ -1,0 +1,5 @@
+! function(e) {
+    e(document).ready(function() {
+        e("body:not(.elementor-editor-active) .elementor-element:not(.elementor-section-stretched) .elementor-container").addClass("container")
+    })
+}(jQuery);
